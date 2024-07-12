@@ -50,14 +50,14 @@ event:
       - text: "Pre-Register"
         my_mlh:
           client_id: "9_OVvOt_p46jXi-1vfZV_qDxqUgF9aFuJVTVqVJyqnQ"
-          redirect_uri: "https://mlh.github.io/mlh-hackathon-boilerplate/success.html"
+          redirect_uri: "https://yuriichubenko.github.io/uphacks-hackathon-boilerplate/success.html"
       - text: "Sponsor"
         href: "mailto:uphacks@best-eu.org"
 
   about:
     description: >
       UpHacks is a hackathon hosted at TU Graz.
-      UpHacks is designed to be one of the largest hackathons in Austria, bringing together 200 students from Austria's leading technical universities to learn about new technologies, build innovative projects, and share their work with the community!
+      It is designed to be one of the largest hackathons in Austria, bringing together 200 students from Austria's leading technical universities to learn about new technologies, build innovative projects, and share their work with the community!
 
   # Info Sections
   info:
