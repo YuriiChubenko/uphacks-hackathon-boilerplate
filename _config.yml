@@ -47,9 +47,9 @@ event:
 
   hero:
     links:
-      - text: "Apply"
+      - text: "Pre-Register"
         my_mlh:
-          client_id: "aqNp9BHigXBPcPvbkqFqw0q6zDGaW--bhahBC53oXJM"
+          client_id: "9_OVvOt_p46jXi-1vfZV_qDxqUgF9aFuJVTVqVJyqnQ"
           redirect_uri: "https://mlh.github.io/mlh-hackathon-boilerplate/success.html"
       - text: "Sponsor"
         href: "mailto:uphacks@best-eu.org"
@@ -98,10 +98,6 @@ event:
       answer: >
         UpHacks is organized by a collaboration of many student teams from TU Graz (including DataTeam, HTU, stv.iso, and others) and curated by the Board of European Students of Technology, Europe's largest STEM student organization.
         UpHacks is supported by TU Graz and [Major League Hacking](https://mlh.io) to ensure the quality of the hackathon.
-    - question: "Do you want to partner with UpHacks?"
-      answer: >
-        We are actively looking for sponsors and partners in the industry. 
-        If you are interested, please contact us at uphacks@best-eu.org.
     - question: "How can we as a company partner with UpHacks?"
       answer: >
         We are actively looking for sponsors and partners in the industry. 
