@@ -103,8 +103,8 @@ section {
 
 .hero .buttons a {
   background: rgba(255, 255, 255, 0.5);
-  border: 10px solid #0F2C34;
-  border-radius: 40px;
+  border: 5px solid #0F2C34;
+  border-radius: 20px;
   color: #0F2C34;
   display: inline;
   font-family: Montserrat;
