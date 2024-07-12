@@ -49,7 +49,7 @@ event:
     links:
       - text: "Pre-Register"
         my_mlh:
-          client_id: "9_OVvOt_p46jXi-1vfZV_qDxqUgF9aFuJVTVqVJyqnQ"
+          client_id: "c571_XQrgLqLCiQUR2-Ag7SbnwW7ZfqxLOy_aRvC46Q"
           redirect_uri: "https://yuriichubenko.github.io/uphacks-hackathon-boilerplate/success.html"
       - text: "Sponsor"
         href: "mailto:uphacks@best-eu.org"
