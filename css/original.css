@@ -11,7 +11,7 @@
 /* 
  * Primary Blue: #44D5FF;
  * Dark Blue: #0F2C34;
- * Primary Pink: #FF7FA8;
+ * Primary Teal: #7DBBC3;
  */
 
 * {
@@ -21,7 +21,7 @@
 }
 
 body {
-  background: linear-gradient(135deg, rgba(68, 213, 255, 0.5), rgba(68, 213, 255, 0.5));
+  background: linear-gradient(135deg, rgba(125, 187, 195, 0.5), rgba(68, 213, 255, 0.5));
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   margin: 0;
@@ -53,13 +53,12 @@ section {
 .hero {
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(125, 187, 195, 0.4);
   border-radius: 20px;
   margin: 20px;
   min-height: 110vh;
   padding: 20px;
   position: relative;
-  color: white;
 }
 
 .hero img {
@@ -67,7 +66,7 @@ section {
 }
 
 .hero hr {
-  border-top: 15px solid rgba(15, 44, 52, 0.5);
+  border-top: 15px solid #0F2C34;
   margin: 0;
   position: relative;
   top: -14px;
@@ -78,7 +77,7 @@ section {
 }
 
 .hero .wrapper h1 {
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.3);
   border-radius: 20px;
   display: inline-block;
   font-size: 60px;
@@ -103,10 +102,10 @@ section {
 }
 
 .hero .buttons a {
-  background: rgba(255, 255, 255, 0.3);
-  border: 10px solid rgba(15, 44, 52, 0.5);
+  background: rgba(255, 255, 255, 0.5);
+  border: 10px solid #0F2C34;
   border-radius: 40px;
-  color: rgba(15, 44, 52, 0.9);
+  color: #0F2C34;
   display: inline;
   font-family: Montserrat;
   font-size: 24px;
@@ -119,7 +118,7 @@ section {
 
 .hero .buttons a:hover,
 .hero .buttons a:focus {
-  background-color: rgba(15, 44, 52, 0.9);
+  background-color: #0F2C34;
   color: #fff;
 }
 
@@ -132,7 +131,7 @@ section {
  */
 
 .about {
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.5);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
   border-radius: 20px;
@@ -140,10 +139,10 @@ section {
   margin: 20px;
   padding: 130px 0;
   position: relative;
-  color: rgba(15, 44, 52, 0.9);
 }
 
 .about p {
+  color: #0F2C34;
   font-weight: 600;
   font-size: 22px;
   line-height: 1.6em;
@@ -160,7 +159,7 @@ section {
  */
 
 .info {
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.5);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
   border-radius: 20px;
@@ -168,7 +167,6 @@ section {
   margin-top: 15px;
   padding: 100px 0;
   position: relative;
-  color: rgba(15, 44, 52, 0.9);
 }
 
 .info .item {
@@ -188,14 +186,13 @@ section {
 
 .info .item p {
   font-size: 20px;
-}
 
 /*
  * FAQ Section
  */
 
 .faq {
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.5);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
   border-radius: 20px;
@@ -203,7 +200,6 @@ section {
   margin-top: 15px;
   padding: 100px 0;
   position: relative;
-  color: rgba(15, 44, 52, 0.9);
 }
 
 .faq h1 {
@@ -219,7 +215,7 @@ section {
 }
 
 .faq .question hr {
-  border-top: 8px solid rgba(15, 44, 52, 0.5);
+  border-top: 8px solid #0F2C34;
   margin: 20px 0;
   width: 80px;
 }
@@ -240,7 +236,7 @@ section {
  */
 
 .footer {
-  background: rgba(245, 105, 156, 0.1);
+  background: rgba(125, 187, 195, 0.4);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
   border-radius: 20px;
