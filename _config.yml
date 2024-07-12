@@ -13,7 +13,7 @@ baseurl: "/mlh-hackathon-boilerplate"
 
 # If you're using GitHub pages without a custom domain, this is "https://[github username].github.io"
 # If you're using GitHub pages with a custom domain, this is "http://[your domain]" (or https if you're using SSL)
-url: "https://mlh.github.io"
+url: "https://yuriichubenko.github.io"
 
 # The ability to use custom themes.
 style:
@@ -21,27 +21,27 @@ style:
 
 # This will help you track who's visiting your website.
 tracking:
-  google_analytics: "UA-43729070-14"
+  google_analytics: "G-JLYT2073SY"
 
 # Let people connect & engage with you through social media.
 social:
-  twitter_handle: "MLHacks"
+  twitter_handle: "UpHacks"
 
 # This is Search Engine Optimization. It'll help your website look better on search.
 seo:
-  title:       "Example Hacks | 5-6 August 2022"
-  description: "This is a sample hackathon website that you can use by following instructions on GitHub."
-  image:       "https://prime.mlh.io/img/logos/mlh-prime-color.svg"
+  title:       "UpHacks | 18-19 October 2024"
+  description: "UpHacks: a place where ideas become reality in 24 hours"
+  image:       "images/logo.png"
 
 # Event information.
 event:
-  name:        "Example Hacks"
-  description: "This is a sample hackathon website that you can use by following instructions on GitHub."
-  date:        "5 - 6 August 2022"
-  location:    "Holmdel, NJ, United States"
+  name:        "UpHacks"
+  description: "A place where ideas become reality in 24 hours"
+  date:        "18 - 19 October 2024"
+  location:    "Graz, Austria"
 
   trust_badge:
-    year:   "2017"  # season year
+    year:   "2024"  # season year
     region: "eu"    # "na" or "eu"
     color:  "white" # "white", "black", "gray", "red", "blue" or "yellow"
 
@@ -49,16 +49,15 @@ event:
     links:
       - text: "Apply"
         my_mlh:
-          client_id:    "0e2f9fc2921d3ad3e12ae900af630d09382e1b3dc1b5b50de2b01b70ad64dbee"
+          client_id:    "aqNp9BHigXBPcPvbkqFqw0q6zDGaW--bhahBC53oXJM"
           redirect_uri: "https://mlh.github.io/mlh-hackathon-boilerplate/success.html"
       - text: "Sponsor"
-        href: "mailto:sponsorship@website.com"
+        href: "mailto:uphacks@best-eu.org"
 
   about:
     description: >
-      Example Hacks is a hackathon hosted at The University of Example.
-      This is your opportunity to describe your event, what to expect, where it is & anything unique to your event.
-      Keep it straightforward, don't make it too long.
+      UpHacks is a hackathon hosted at TU Graz.
+      UpHacks is designed to be one of the largest hackathons in Austria, bringing together 200 students from Austria's leading technical universities to learn about new technologies, build innovative projects, and share their work with the community!
 
   # Info Sections
   info:
@@ -66,15 +65,15 @@ event:
       - image: "images/image1.png"
         title: "LEARN."
         description: >
-          We can write something nice with a graphic (as above) to make the event more appealing.
+          Have an idea and learn how to build it with the help of mentors.
       - image: "images/image2.png"
         title: "BUILD."
         description: >
-          We can write something nice with a graphic (as above) to make the event more appealing.
+          Come to the event and build your idea that you had in the back of your mind in 24 hours.
       - image: "images/image3.png"
         title: "SHARE."
         description: >
-          We can write something nice with a graphic (as above) to make the event more appealing.
+          Meet like-minded people, exchange ideas and show what you came up with on the event.
 
   # Frequently asked questions.
   faq:
@@ -85,13 +84,19 @@ event:
     - question: "How much does it cost?"
       answer: >
         Nothing. Attending a hackathon is free.
-    - question: "Do I need to be a student to attend?"
+    #- question: "Do I need to be a student to attend?"
+    #  answer: >
+    #    Yes. Only students who are currently enrolled at a college/university #or
+    #    have graduated within the past 12 months are eligible to attend.
+    - question: "When is the event?"
+      answer: >
+        The event will be hosted on the 18th and 19th of October 2024.
       answer: >
         Yes. Only students who are currently enrolled at a college/university or
         have graduated within the past 12 months are eligible to attend.
     - question: "Where is the event?"
       answer: >
-        The event is being hosted at [insert venue location here].
+        The event It will be hosted at the Graz University of Technology Campus Inffeldgasse in Graz, Austria.
     - question: "What is Major League Hacking?"
       answer: >
         Major League Hacking is [the official student hackathon league](https://mlh.io) in North America & Europe.
