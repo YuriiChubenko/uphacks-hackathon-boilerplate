@@ -13,13 +13,13 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Build the site in the ruby:2.7 container
+      - name: Build the site in the ruby:2.7.0 container
         run: |
           docker run \
           -v ${{ github.workspace }}:/srv/jekyll \
           -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
           -w /srv/jekyll \
-          ruby:2.7 /bin/bash -c "\
+          ruby:2.7.0 /bin/bash -c "\
             gem install bundler -v 2.4.22 && \
             bundle install && \
             chmod -R 777 /srv/jekyll && \
