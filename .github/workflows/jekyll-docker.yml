@@ -13,12 +13,15 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Build the site in the jekyll/jekyll container with Ruby 2.7
+      - name: Build the site in the ruby:2.7 container
         run: |
           docker run \
           -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
-          jekyll/jekyll:3.8 /bin/bash -c "chmod -R 777 /srv/jekyll && jekyll build --future"
-
+          ruby:2.7 /bin/bash -c "\
+            gem install bundler && \
+            bundle install && \
+            chmod -R 777 /srv/jekyll && \
+            jekyll build --future"
 
       - name: Download a Build Artifact
         uses: actions/download-artifact@v4.1.8
