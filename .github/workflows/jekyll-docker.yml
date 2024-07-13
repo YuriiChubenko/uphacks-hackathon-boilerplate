@@ -18,7 +18,7 @@ jobs:
           docker run \
           -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
           ruby:2.7 /bin/bash -c "\
-            gem install bundler && \
+            gem install bundler -v 2.4.22 && \
             bundle install && \
             chmod -R 777 /srv/jekyll && \
             jekyll build --future"
